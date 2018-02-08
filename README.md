@@ -93,5 +93,7 @@ Vim CheatSheet: (From vimtutor)
 
 
 TODO:
-Toggle comments.
-Page down/up https://gist.github.com/jonlabelle/11053123
+1.Toggle comments.
+2. Page down/up 
+
+https://gist.github.com/jonlabelle/11053123
