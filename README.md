@@ -1,56 +1,56 @@
 # vim_cheatsheet
 
-Vim CheatSheet:
+Vim CheatSheet: (From vimtutor)
 `
 ↓ j   k ↑
 ← h  l → 
 `
 
-vim <filename>
+`vim <filename>`
 
 1. Saving Options:
     1. `<ESC> + q!` : exits the editor discarding any changes
     2. `<ESC> + wq `: save a file and exit.
     3. `<ESC> `: place in Normal mode/cancel unwanted partially completed commands
-    4. <ESC> + w <filename> : save with filename
+    4. `<ESC> + w <filename> `: save with filename
 2. Insert mode:
-    1. i : insert text
-    2. a : insert text after the cursor.
-    3. A : insert text at end of the line
-    4. o : open a line below the cursor and place you in Insert mode
-    5. e : moves to the end of a word
+    1. `i` : insert text
+    2. `a` : insert text after the cursor.
+    3. `A` : insert text at end of the line
+    4. `o` : open a line below the cursor and place you in Insert mode
+    5. `e` : moves to the end of a word
 3. Delete :  commands that change text: operator motion
-    1. dw : delete a word
-    2. d$ : delete to the end of the line
-    3. x : delete the character under the cursor
+    1. `dw` : delete a word
+    2. `d$` : delete to the end of the line
+    3. `x` : delete the character under the cursor
 4. Motions:  just the motion in Normal Mode without an operator will the move the cursor as specified
     1. Single motion:
-        1. w : until the next word, excluding the first character
-        2. e : to the end of the current word, including the last character; ex - de delete from the cursor to the end of the word]
-        3. $ : to the end of line, including the last character
+        1. `w` : until the next word, excluding the first character
+        2. `e` : to the end of the current word, including the last character; ex - de delete from the cursor to the end of the word]
+        3. `$` : to the end of line, including the last character
     2. Multiple Motion:  typing a number with an operator repeats it that many times;                       
         1.  number motion :
-            1. 2w : move two words forward
-            2. 3e : move the cursor to the end of third word forward
-            3. 0 : move to the start of the line
+            1. `2w` : move two words forward
+            2. `3e` : move the cursor to the end of third word forward
+            3. `0` : move to the start of the line
         2. operator [number] motion :
-            1. d2w : delete two words
+            1. `d2w` : delete two words
         3.  others:
-            1. dd : delete whole line
-            2. 2dd : delete two lines
+            1. `dd` : delete whole line
+            2. `2dd` : delete two lines
 5. Undo/Redo:
-    1. u : undo last commands
-    2. U : undo changes in the whole line
-    3. CTRL+R : redo
-    4. p : to put previously deleted text after cursor
+    1. `u` : undo last commands
+    2. `U` : undo changes in the whole line
+    3. `CTRL+R` : redo
+    4. `p` : to put previously deleted text after cursor
 6. Replace mode: Every typed character deletes a existing character.
     1. Replace a character:
-        1. r<x>: to replace the character at the cursor with x
+        1. `r<x>`: to replace the character at the cursor with x
     2. Replace mode:
-        1. R : enters Replace mode until <ESC>.
+        1. `R` : enters Replace mode until <ESC>.
 7. Change: 
     1. c [number] motion
-        1. ce : deletes the word and places you in Insert mode
+        1. `ce` : deletes the word and places you in Insert mode
         2. c$ : deletes till the end of line and places you in Insert mode
 8. Cursor movement across lines:
     1. G : to move to the bottom of the file
