@@ -92,3 +92,6 @@ Vim CheatSheet: (From vimtutor)
 
 
 
+TODO:
+Toggle comments.
+Page down/up https://gist.github.com/jonlabelle/11053123
