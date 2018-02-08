@@ -49,7 +49,7 @@ Vim CheatSheet: (From vimtutor)
     2. Replace mode:
         1. `R` : enters Replace mode until <ESC>.
 7. **Change**: 
-    1. c [number] motion
+    1. `c [number] motion`:
         1. `ce` : deletes the word and places you in Insert mode
         2. `c$` : deletes till the end of line and places you in Insert mode
 8. **Cursor movement across lines**:
