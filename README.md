@@ -1,9 +1,10 @@
 # vim_cheatsheet
 
 Vim CheatSheet:
-
+`
 ↓ j   k ↑
 ← h  l → 
+`
 
 vim <filename>
 
