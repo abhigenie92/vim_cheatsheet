@@ -9,9 +9,9 @@ Vim CheatSheet:
 vim <filename>
 
 1. Saving Options:
-    1. <ESC> + q! : exits the editor discarding any changes
-    2. <ESC> + wq : save a file and exit.
-    3. <ESC> : place in Normal mode/cancel unwanted partially completed commands
+    1. `<ESC> + q!` : exits the editor discarding any changes
+    2. `<ESC> + wq `: save a file and exit.
+    3. `<ESC> `: place in Normal mode/cancel unwanted partially completed commands
     4. <ESC> + w <filename> : save with filename
 2. Insert mode:
     1. i : insert text
